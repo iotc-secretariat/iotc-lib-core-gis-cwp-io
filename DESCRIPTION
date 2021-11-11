@@ -1,0 +1,16 @@
+Package: iotc.core.gis.cwp.IO
+Type: Package
+Title: IOTC core CWP grid system helpers and constants specific to IO grids
+Version: 0.2.0
+Author: Fabio Fiorellato <fabio.fiorellato@fao.org>
+Maintainer: Fabio Fiorellato <fabio.fiorellato@fao.org>
+Description: Utility methods for CWP regular grids management (specific to IO grids)
+License: Private
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  data.table,
+  iotc.core.gis.cwp,
+  iotc.core.db.data
+RoxygenNote: 7.1.1
+
