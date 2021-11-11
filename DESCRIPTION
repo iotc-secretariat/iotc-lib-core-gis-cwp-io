@@ -10,7 +10,7 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
   data.table,
-  iotc.core.gis.cwp,
-  iotc.core.db.data
+  iotc.core.gis.cwp (>= 0.2.0),
+  iotc.core.db.data (>= 0.2.0)
 RoxygenNote: 7.1.1
 
