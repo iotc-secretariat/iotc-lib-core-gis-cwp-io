@@ -8,8 +8,7 @@ each corresponding target grid}
 \usage{
 grid_intersections_by_source_grid_type(
   source_grid_type_code = grid_code_5x5,
-  target_grid_codes,
-  connection = DB_IOTCSTATISTICS()
+  target_grid_codes
 )
 }
 \arguments{

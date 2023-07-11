@@ -5,12 +5,10 @@
 \title{Retrieves all details (code, exact center latitude / longitude of its ocean area, regular grid center latitude / longitude, ocean area surface in KM2 and type of fishing ground)
 for a subset of the regular grids available in the \code{CL_FISHING_GROUNDS} table of the \code{IOTCStatistics} database}
 \usage{
-filter_grids(grid_types = grid_codes_ALL, connection = DB_IOTCSTATISTICS())
+filter_grids(grid_types = grid_codes_ALL)
 }
 \arguments{
 \item{grid_types}{A vector containing the grid types for the grids to be returned}
-
-\item{connection}{An ODBC connection to a RDBMS server hosting the \code{IOTCStatistics} database}
 }
 \value{
 A data frame with the following columns
@@ -30,5 +28,4 @@ for a subset of the regular grids available in the \code{CL_FISHING_GROUNDS} tab
 }
 \examples{
 filter_grids(grid_types = c(1, 2))
-filter_grids(grid_types = 2, connection = DB_IOTCSTATISTICS(server = "localhost"))
 }
