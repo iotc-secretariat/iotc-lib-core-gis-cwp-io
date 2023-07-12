@@ -6,7 +6,11 @@
 The result contains also a column that indicates the fraction (0..1) of each source grid that intersects
 each corresponding target grid}
 \usage{
-grid_intersections(source_grid_codes, target_grid_codes)
+grid_intersections(
+  source_grid_codes,
+  target_grid_codes,
+  connection = DB_IOTCSTATISTICS()
+)
 }
 \arguments{
 \item{source_grid_codes}{a sequence of grid codes for the source grids}

@@ -2,10 +2,10 @@
 % Please edit documentation in R/iotc_core_gis_cwp_IO_utils.R
 \name{cwp_grids_10x10}
 \alias{cwp_grids_10x10}
-\title{Same as \code{filter_grids(c = grid_code_10x10)}}
+\title{Same as \code{filter_grids(c = grid_code_10x10, connection = <connection>)}}
 \usage{
-cwp_grids_10x10()
+cwp_grids_10x10(connection = DB_IOTCSTATISTICS())
 }
 \description{
-Same as \code{filter_grids(c = grid_code_10x10)}
+Same as \code{filter_grids(c = grid_code_10x10, connection = <connection>)}
 }
